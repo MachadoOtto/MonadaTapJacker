@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000338"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="-321dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="79dp"
+        android:text="@string/title"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="31dp"
+        android:text="@string/subtitle"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startOverlayButton"
+        android:layout_width="145dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="startOverlay"
+        android:text="@string/start_overlay" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="16dp"
+        android:background="#4D192D3E"
+        android:hint="@string/hint_overlay"
+        android:inputType="text"
+        android:text="@string/overlay_text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textOpacity"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="534dp"
+        android:layout_marginEnd="98dp"
+        android:text="@string/opacity"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <SeekBar
+        android:id="@+id/opacitySeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startOverlayButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="553dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:max="255"
+        android:progress="255" />
+
+</RelativeLayout>

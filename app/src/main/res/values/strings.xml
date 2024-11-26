@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TapJacker</string>
+    <string name="start_overlay">Start Overlay</string>
+    <string name="kill_overlay">KILL OVERLAY</string>
+    <string name="opacity">Set Overlay Opacity:</string>
+    <string name="overlay_text">This overlay demonstrates that the application is vulnerable to Tapjacking.</string>
+    <string name="title">MonadaTapJacker</string>
+    <string name="subtitle">by themonada.com</string>
+    <string name="hint_overlay">Enter overlay text</string>
+</resources>
